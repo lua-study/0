@@ -1,0 +1,7 @@
+##基于 selenium 的 web 自动化测试系统###一、 系统介绍####1.系统结构|访问限制|目录结构|功能描述||---|---|---|| PUBLIC  | auto   | 核心逻辑 || PUBLIC  | client | 用户操作 || PUBLIC  | main   | 启动入口 || PUBLIC  | model  | 数据模型 || PUBLIC  | util   | 常用工具 |####2.功能划分```|── minotaurus|   └── auto --------------------------------- 核心逻辑|   └── client ------------------------------- 用户操作|   └── main --------------------------------- 启动入口|   └── model -------------------------------- 数据模型|   └── util --------------------------------- 常用工具```####二、框架目标1.提供基于selenium的web项目自动化测试基本功能 2.实现操作录制并依据录制自动测试 3.实现异常报表生成 4.依据规则自动生成测试数据 ####三、模块说明#####&nbsp;&nbsp;&nbsp;(1) auto ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 核心逻辑 : ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 主要完成操作录制中的逻辑，包括发现定位目标。 #####&nbsp;&nbsp;&nbsp;(2) client ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 用户操作 :######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 针对用户的命令操作，如导出测试结果报表 #####&nbsp;&nbsp;&nbsp;(3) main ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 启动入口 :######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 自动化测试系统的启动脚本 #####&nbsp;&nbsp;&nbsp;(4) model ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 数据模型 : ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 依据数据规则自动生成测试数据。#####&nbsp;&nbsp;&nbsp;(5) util ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 常用工具 : ######&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 包含时间格式处理等基础工具，提供常用功能工具箱。####四、技术选择1.Python3.x 2.selenium 3.MySQL/ES 4.markdown 
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
