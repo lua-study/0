@@ -1,0 +1,73 @@
+[APDPlat快速体验](https://github.com/ysc/APDPlat/wiki)
+
+[APDPlat入门指南](https://github.com/ysc/APDPlat/wiki/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97)
+
+[APDPlat专题文章](http://yangshangchuan.iteye.com/category/270424)
+
+APDPlat是Application Product Development Platform（应用级产品开发平台）的缩写。
+
+APDPlat提供了应用容器、多模块架构、代码生成、安装程序、认证授权、备份恢复、数据字典、web service、系统监控、操作审计、统计图、报表、机器绑定、防止破解、数据安全、内置搜索、数据转换、maven支持、WEB组件、内容管理、工作流、Web资源优化等功能。
+
+[捐赠致谢](https://github.com/ysc/QuestionAnsweringSystem/wiki/donation)
+
+APDPlat使用的技术主要有：
+
+    1)、Web前端使用EXT JS。
+
+    2)、前端控制器原来使用Struts2，从版本2.6开始使用Spring MVC。
+
+    3)、IOC容器使用Spring。
+
+    4)、ORM使用JPA，默认实现是Hibernate。
+
+    5)、内置搜索（OSEM）使用Compass，从版本2.6开始废弃。
+
+    6)、认证授权使用SpringSecurity。
+
+    7)、代码生成使用Freemarker。
+
+    8)、日志组件使用SLF4J和Logback。
+
+    9)、调度组件使用Quartz。
+
+    10)、验证码使用Jcaptcha。
+
+    11)、Web Service使用CXF。
+
+    12)、SQL监控使用P6SPY。
+
+    13)、JS和CSS压缩使用YUI Compressor。
+
+    14)、JAVA代码混淆使用Allatori。
+
+    15)、获取系统信息使用Sigar。
+
+    16)、单元测试使用JUnit。
+
+    17)、配置文件加密使用Jasypt。
+
+    18)、缓存使用EhCache或是Memcached。
+
+    19)、数据库连接池使用CommonsDBCP。
+
+    20)、Office文档操作使用POI。
+	
+	21)、工作流使用Activiti。
+	
+	22)、报表使用BIRT。
+	
+	23)、Web资源优化使用wro4j。
+	
+	24)、日志拦截使用AspectJ。
+	
+	25)、上传备份文件到FTP使用Commons Net。
+	
+	26)、JSON处理使用Jackson。
+	
+	27)、分布式搜索和实时分析使用elasticsearch
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
