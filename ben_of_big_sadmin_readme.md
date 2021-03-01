@@ -1,0 +1,29 @@
+# Sadmin
+
+## 版本：
+    python v2.6
+    django v1.6
+    Bootstrap v3.2.0
+	
+## 部署(linux)：
+	1.安装django 1.6
+	2.将项目解压在任意目录下，进入项目目录
+	3.同步数据库，需要先创建好数据库，数据库连接信息在website/settings.py文件中定义
+		# python manage.py syncdb
+	4.运行项目
+		# python manage.py runserver 0.0.0.0:80
+	5.浏览器访问
+	
+## 权限判断逻辑：
+	1.用户隶属于某个角色（组的概念），角色具有一定的权限
+	2.当用户访问某个url时，获取当用户的用户名和要访问的URL地址，判断用户隶属的角色是否包含所以访问的url
+
+# 欢迎关注微信公众号【运维咖啡吧】获取更多实用干货
+![扫码关注公众号查看更多实用文章](https://oscimg.oschina.net/oscnet/d4896ab238b313ec64ff477d380cd5a0e78.jpg)
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
