@@ -1,0 +1,32 @@
+# https://github.com/docker-library/tomcat
+
+## Maintained by: [the Docker Community](https://github.com/docker-library/tomcat)
+
+This is the Git repo of the [Docker "Official Image"](https://github.com/docker-library/official-images#what-are-official-images) for [`tomcat`](https://hub.docker.com/_/tomcat/) (not to be confused with any official `tomcat` image provided by `tomcat` upstream). See [the Docker Hub page](https://hub.docker.com/_/tomcat/) for the full readme on how to use this Docker image and for information regarding contributing and issues.
+
+The [full image description on Docker Hub](https://hub.docker.com/_/tomcat/) is generated/maintained over in [the docker-library/docs repository](https://github.com/docker-library/docs), specifically in [the `tomcat` directory](https://github.com/docker-library/docs/tree/master/tomcat).
+
+## See a change merged here that doesn't show up on Docker Hub yet?
+
+For more information about the full official images change lifecycle, see [the "An image's source changed in Git, now what?" FAQ entry](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
+For outstanding `tomcat` image PRs, check [PRs with the "library/tomcat" label on the official-images repository](https://github.com/docker-library/official-images/labels/library%2Ftomcat). For the current "source of truth" for [`tomcat`](https://hub.docker.com/_/tomcat/), see [the `library/tomcat` file in the official-images repository](https://github.com/docker-library/official-images/blob/master/library/tomcat).
+
+---
+
+-	[![build status badge](https://img.shields.io/github/workflow/status/docker-library/tomcat/GitHub%20CI/master?label=GitHub%20CI)](https://github.com/docker-library/tomcat/actions?query=workflow%3A%22GitHub+CI%22+branch%3Amaster)
+-	[![build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/update.sh/job/tomcat.svg?label=Automated%20update.sh)](https://doi-janky.infosiftr.net/job/update.sh/job/tomcat/)
+
+| Build | Status | Badges | (per-arch) |
+|:-:|:-:|:-:|:-:|
+| [![amd64 build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/amd64/job/tomcat.svg?label=amd64)](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/tomcat/) | [![arm32v7 build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm32v7/job/tomcat.svg?label=arm32v7)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v7/job/tomcat/) | [![arm64v8 build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/tomcat.svg?label=arm64v8)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/tomcat/) | [![ppc64le build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/tomcat.svg?label=ppc64le)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/tomcat/) |
+| [![s390x build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/s390x/job/tomcat.svg?label=s390x)](https://doi-janky.infosiftr.net/job/multiarch/job/s390x/job/tomcat/) | [![put-shared build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/put-shared/job/light/job/tomcat.svg?label=put-shared)](https://doi-janky.infosiftr.net/job/put-shared/job/light/job/tomcat/) |
+
+ 
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
