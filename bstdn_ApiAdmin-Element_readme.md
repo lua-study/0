@@ -1,0 +1,91 @@
+ 
+     
+         
+     
+ 
+
+# ApiAdmin-Element
+
+## 特别提示
+
+> 本项目由`vue-cli`构建，依赖于[ApiAdmin-ThinkPHP](https://github.com/bstdn/ApiAdmin-ThinkPHP)
+
+## Install
+
+### Clone the project
+
+```
+git clone https://github.com/bstdn/ApiAdmin-Element.git
+cd ApiAdmin-Element
+```
+
+### Prepare
+
+```
+# .env.development中的VUE_APP_BASE_API修改为后台接口地址
+```
+
+### Project setup
+
+```
+npm install // or yarn
+
+# 国内
+npm install --registry=https://registry.npm.taobao.org
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run dev // or yarn dev
+
+# 指定端口
+npm run dev --port=8080 // or yarn dev --port=8080
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
+### Lints and fixes files
+
+```
+npm run lint
+```
+
+## 相关技术栈
+
+- [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+- [Element](https://element.eleme.cn)
+- [Vue](https://github.com/vuejs/vue)
+- [Vue-Loader](https://vue-loader.vuejs.org/zh/guide/)
+- [Webpack](https://github.com/webpack/webpack)
+
+## 效果展示
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1123/111129_50384013_1185106.png "menu.png")
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1123/111426_7130df97_1185106.png "appList.png")
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1123/111451_2df8d595_1185106.png "interfaceList.png")
+
+## 赞赏
+
+**请作者喝杯咖啡吧！(微信号/QQ号：99808359)**
+
+ 
+
+## License
+
+[MIT](https://github.com/bstdn/ApiAdmin-Element/blob/master/LICENSE)
+
+Copyright (c) 2019-present, bstdn
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
