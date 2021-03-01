@@ -1,0 +1,278 @@
+ 
+	   
+ 
+
+ 
+	  JPay 简易而不简单的支付 SDK  
+ 
+
+ 
+	 对微信App支付、支付宝App支付、银联App支付的二次封装,对外提供一个相对简单的接口以及支付结果的回调 
+ 
+
+
+ 
+       
+       
+       
+ 
+
+
+# 客户端与服务端
+
+- GitHub: https://github.com/Javen205/JPay
+- Gitee: http://gitee.com/Javen205/JPay
+
+- GitHub: https://github.com/Javen205/IJPay
+- Gitee: http://gitee.com/Javen205/IJPay
+
+**联系方式**
+
+[![QQ0Group][qq0GroupSvg]][qq0Group]
+[![Email](https://img.shields.io/badge/Email-javendev%40126.com-yellowgreen.svg)](http://javen.blog.csdn.net)
+
+[qq0GroupSvg]: https://img.shields.io/badge/QQ群-723992875-fba7f9.svg
+[qq0Group]: http://t.cn/R17bes8
+
+**使用方法**
+
+### 1、坐标
+
+Step 1. Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+Step 2. Add the dependency
+
+```
+implementation 'com.github.javen205:JPay:AliPay:latest.release.here'
+implementation 'com.github.javen205:JPay:WxPay:latest.release.here'
+```
+
+例如：版本号为`0.0.5`
+
+```
+implementation 'com.github.javen205.JPay:AliPay:0.0.5'
+implementation 'com.github.javen205.JPay:WxPay:0.0.5'
+```
+### 2. Android Manifest配置
+
+##### 2.1 权限声明
+
+```
+ // 最新版本无需特殊配置，已配置到 Library 
+```
+
+##### 2.2 注册activity
+
+`application` 节点添加如下类容
+```
+// 最新版本无需特殊配置，已配置到 Library 
+```
+
+### 3. 发起支付
+
+##### 3.1 微信支付
+
+
+```
+com.jpay.wxpay.JPay.getIntance(mContext).toWxPay(appId, partnerId, prepayId, nonceStr, timeStamp, sign, new com.jpay.wxpay.JPay.WxPayListener() {
+    @Override
+    public void onPaySuccess() {
+        Toast.makeText(mContext, "支付成功", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayError(int error_code, String message) {
+        Toast.makeText(mContext, "支付失败>" + error_code + " " + message, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayCancel() {
+        Toast.makeText(mContext, "取消了支付", Toast.LENGTH_SHORT).show();
+    }
+});
+```
+
+或者
+
+```
+com.jpay.wxpay.JPay.getIntance(mContext).toWxPay(payParameters, new com.jpay.wxpay.JPay.WxPayListener() {
+    @Override
+    public void onPaySuccess() {
+        Toast.makeText(mContext, "支付成功", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayError(int error_code, String message) {
+        Toast.makeText(mContext, "支付失败>" + error_code + " " + message, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayCancel() {
+        Toast.makeText(mContext, "取消了支付", Toast.LENGTH_SHORT).show();
+    }
+});
+``` 
+
+`payParameters` 为JSON字符串格式如下：
+```
+{
+  "appId": "",
+  "partnerId": "",
+  "prepayId": "",
+  "sign": "",
+  "nonceStr" : "",
+  "timeStamp": ""
+}
+```
+
+或者
+
+```
+JPay.getIntance(mContext).toWxPay(appId, partnerId, prepayId, nonceStr, timeStamp, sign, new JPay.JPayListener() {
+    @Override
+    public void onPaySuccess() {
+        Toast.makeText(mContext, "支付成功", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayError(int error_code, String message) {
+        Toast.makeText(mContext, "支付失败>"+error_code+" "+ message, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayCancel() {
+        Toast.makeText(mContext, "取消了支付", Toast.LENGTH_SHORT).show();
+    }
+});
+```
+##### 3.2 支付宝支付
+
+```
+JPay.getIntance(mContext).toAliPay(orderInfo, new JPay.AliPayListener() {
+    @Override
+    public void onPaySuccess() {
+        Toast.makeText(mContext, "支付成功", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayError(int error_code, String message) {
+        Toast.makeText(mContext, "支付失败>" + error_code + " " + message, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayCancel() {
+        Toast.makeText(mContext, "取消了支付", Toast.LENGTH_SHORT).show();
+    }
+});
+```
+##### 3.3 银联支付
+
+```
+com.jpay.unionpay.JPay.getIntance(mContext).toUnionPay("01", tn, new com.jpay.unionpay.JPay.UnionPayListener() {
+    @Override
+    public void onPaySuccess() {
+        Toast.makeText(mContext, "支付成功", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayError(int error_code, String message) {
+        Toast.makeText(mContext, "支付失败>" + error_code + " " + message, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPayCancel() {
+        Toast.makeText(mContext, "取消了支付", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onUnionPay(String dataOrg, String sign, String mode) {
+        Log.d("onUnionPay", "支付成功>需要后台查询订单确认>dataOrg" + dataOrg + " sign>" + sign + " mode>" + mode);
+        Toast.makeText(mContext, "支付成功>需要后台查询订单确认>" + dataOrg + " " + mode, Toast.LENGTH_SHORT).show();
+    }
+});
+```
+
+Activity 中 重写 onActivityResult 监听回调
+
+```
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    Log.e("UnionPay",requestCode+" "+resultCode);
+    try {
+        UnionPay.getInstance(this).onUnionPayResult(data);
+    } catch (JSONException e) {
+        e.printStackTrace();
+    }
+    super.onActivityResult(requestCode, resultCode, data);
+}
+```
+
+### 4.案例的使用
+
+
+> appId 以及相关的 key 我们都从服务端获取
+
+#### 4.1 客户端使用说明
+ 
+ 1. 将`AndroidManifest.xml` 的包名修改为申请应用的包名
+ 2. 将应用中的 `build.gradle` 的 `applicationId` 修改为申请应用的包名
+ 3. 测试的时候修改默认的签名 key
+
+> 将key复制到项目的根目录(app)中并修改 `buildTypes` 配置如下
+
+```
+signingConfigs {
+    release {
+        storeFile file("wxkey")
+        storePassword '123456'
+        keyAlias '1'
+        keyPassword '123456'
+    }
+}
+
+buildTypes {
+    release {
+        minifyEnabled false
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+    debug {
+        signingConfig signingConfigs.release
+    }
+}
+```
+
+
+#### 4.2 参考资料
+
+微信、支付宝APP支付详细介绍参考资料 [博客地址](http://javen.blog.csdn.net)
+
+[10分钟搭建属于自己的ngork服务器，实现内网穿透](http://javen.blog.csdn.net/article/details/70341106)
+[Android版-微信APP支付](http://javen.blog.csdn.net/article/details/54024232)
+
+[Android版-支付宝APP支付](http://javen.blog.csdn.net/article/details/54024238)
+
+[支付宝Wap支付你了解多少？](http://javen.blog.csdn.net/article/details/54024253)
+
+**安利**
+
+[微信公众号开发：订阅号、服务号](https://gitee.com/javen205/weixin_guide)
+
+[AndroidStudio多渠道打包](http://javen.blog.csdn.net/article/details/61420290)
+
+[Android依赖管理与私服搭建](http://javen.blog.csdn.net/article/details/60336030)
+
+[Android Studio 上传aar(Library)到JCenter](http://javen.blog.csdn.net/article/details/60336189)
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
