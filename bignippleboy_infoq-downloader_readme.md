@@ -1,0 +1,34 @@
+# InfoQ downloader
+
+[InfoQ](http://www.infoq.com/) is a great resource for many useful sessions. The way they view presentations sync'ed with slides is cool. Unfortunately, I have a slow internet connection which makes my viewing experience sucks. To solve this, I made this scripts which downloads their page, video & slides.
+
+## Installation
+On Windows, just download [this file](dist/infoq_downloader.exe?raw=true)
+
+On Linux, run the following
+
+```sh
+git clone https://github.com/mtayseer/infoq-downloader.git
+cd infoq-downloader
+pip install -r requirements.txt
+```
+
+## Usage
+`python infoq_downloader.py http://www.infoq.com/presentations/github-evolution`
+
+On Windows
+`infoq_downloader.exe http://www.infoq.com/presentations/github-evolution`
+
+## Features
+1. Console app
+2. Supports download resuming of slides & videos
+3. The generated HTML is clean
+
+## License
+MIT. See [LICENSE](LICENSE)
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
