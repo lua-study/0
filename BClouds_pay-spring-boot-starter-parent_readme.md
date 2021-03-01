@@ -1,0 +1,42 @@
+# pay-spring-boot-starter-parent
+
+#### 项目介绍
+ spring-boot-starter-pay 是一个基于spring-boot实现自动化配置的支付对接，让你可以不用理解支付怎么对接，只需要专注你的业务 
+ 
+ 项目正在开发中，请持续关注……
+
+#### 本项目在以下代码托管网站
+* 码云：https://gitee.com/egzosn/pay-spring-boot-starter-parent
+* GitHub：https://github.com/egzosn/pay-spring-boot-starter-parent
+
+#### 软件架构
+spring-boot  pay-java
+
+
+#### 安装教程
+
+1. xxxx
+2. xxxx
+3. xxxx
+
+#### 使用说明
+
+1. xxxx
+2. xxxx
+3. xxxx
+
+#### 参与贡献
+
+1. Fork 本项目
+2. 新建 Feat_xxx 分支
+3. 提交代码
+4. 新建 Pull Request
+
+
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
