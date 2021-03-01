@@ -1,0 +1,93 @@
+# swagger-ui-layer
+
+------
+
+swagger-ui-layer 是一个基于swagger的前端UI实现,是为了替换了默认的swagger-ui,让生成的文档更加友好和美观
+
+swagger-ui-layer 要依赖swagger的注解功能，因为swagger-ui-layer 仅仅只是一个前端UI界面的实现，解析的数据来源于 `/v2/api-docs` 
+
+
+### 效果
+* 接口文档信息界面
+
+![api-info](swagger-ui-layer/src/main/resources/examples/api-info.png)
+
+* 接口文档调试界面
+
+![api-debug](swagger-ui-layer/src/main/resources/examples/api-debug.png)
+
+------
+
+### 如何使用
+##### 1、引入jar包
+
+首先需要在你的 `pom.xml` 中引入`swagger` 和 `swagger-ui-layer` 的包
+```xml
+ 
+     io.springfox 
+     springfox-swagger2 
+     2.2.2 
+ 
+ 
+   com.github.caspar-chen 
+   swagger-ui-layer 
+   0.0.2 
+ 
+```
+
+##### 2、添加swagger功能和注解
+启用swagger ,创建SwaggerConfig文件，内容如下，
+> 需要注意的一点是 swagger api 的默认地址是`/v2/api-docs` 所以swagger-ui-layer也读取的是默认地址，
+所以在new Docket()的时候不能指定group参数，否则 swagger api 的地址会在后面加入group的参数导致swagger-ui-layer不能正确请求到数据
+```java
+@Configuration
+@EnableSwagger2
+public class SwaggerConfig {
+
+	@Bean
+	public Docket ProductApi() {
+		return new Docket(DocumentationType.SWAGGER_2)
+				.genericModelSubstitutes(DeferredResult.class)
+				.useDefaultResponseMessages(false)
+				.forCodeGeneration(false)
+				.pathMapping("/")
+				.select()
+				.build()
+				.apiInfo(productApiInfo());
+	}
+
+	private ApiInfo productApiInfo() {
+		ApiInfo apiInfo = new ApiInfo("XXX系统数据接口文档",
+				"文档描述。。。",
+				"1.0.0",
+				"API TERMS URL",
+				"联系人邮箱",
+				"license",
+				"license url");
+		return apiInfo;
+	}
+}
+```
+常用的swagger注解 
+Api
+ApiModel
+ApiModelProperty
+ApiOperation
+ApiParam
+ApiResponse
+ApiResponses
+ResponseHeader
+具体的注解用法可参阅互联网
+
+##### 3、查看结果
+`swagger-ui-layer` 的默认访问地址是 `http://${host}:${port}/docs.html`
+
+### License
+Apache License 2.0
+
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
