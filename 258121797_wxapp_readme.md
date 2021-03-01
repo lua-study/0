@@ -1,0 +1,611 @@
+#微信小程序汇总（7月12日更新小程序129个教程或资讯与45个Demo）
+---
+
+ - 1：微信小程序官方工具：[https://mp.weixin.qq.com/debug/w ... tml?t=1476434678461](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=1476434678461)
+ - 2：微信小程序简易教程：https://mp.weixin.qq.com/debug/wxadoc/dev/?t=1476434677599
+ - 3：微信小程序设计指南：https://mp.weixin.qq.com/debug/wxadoc/design/index.html
+ - 4：微信小程序设计资源下载：https://mp.weixin.qq.com/debug/wxadoc/design/#资源下载
+ - 5：微信小程序公测接入指南：http://www.wxapp-union.com/portal.php?mod=view&aid=259
+ - 6：微信小程序支付文档：[https://pay.weixin.qq.com/wiki/d ... pi.php?chapter=3_1#](https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=3_1#)
+ - 7：微信小程序新手入门宝典：http://www.wxapp-union.com/forum.php?mod=viewthread&tid=1989
+ - 8：微信小程序免费视频：http://www.wxapp-union.com/forum.php?mod=forumdisplay&fid=37&filter=typeid&typeid=7
+ - 9：微信小程序实战宝典：http://www.wxapp-union.com/special/solution.html
+ - 10：微信小程序从注册到上线系列：http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4375
+ - 11：精品合集：
+    - [微信小程序特殊效果合集第一期](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4727)
+    - [微信小程序特殊效果合集第二期](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4811)
+    - [微信小程序优秀教程及文章合集第一期](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4742)
+
+
+
+##7月12日更新小程序教程与资讯
+- [微信小程序新增功能： 多列模式和省市区类型](http://www.wxapp-union.com/portal.php?mod=view&aid=2687) 2017-07-12
+- [开发者工具版本更新：2017.07.11 (0.19.191100)（更新详情）](http://www.wxapp-union.com/portal.php?mod=view&aid=2686) 2017-07-12
+- [微信小程序开发问答《四十九》input空间输入文字如何清空 & 时间处理问题 ... ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2685) 2017-07-12
+- [微信小程序三级联动地址选择器](http://www.wxapp-union.com/portal.php?mod=view&aid=2682) 2017-07-12
+- [微信再放大招 小程序与公众号将彻底打通？](http://www.wxapp-union.com/portal.php?mod=view&aid=2684) 2017-07-12
+- [微信小程序变量值共用小技巧](http://www.wxapp-union.com/portal.php?mod=view&aid=2683) 2017-07-12
+- [小程序升级页面体验相关能力](http://www.wxapp-union.com/portal.php?mod=view&aid=2681) 2017-07-12
+- [极乐科技CEO应邀出席2017微信小程序生态课](http://www.wxapp-union.com/portal.php?mod=view&aid=2680) 2017-07-11
+- [临摹帖——仿写饿了么个人中心页面](http://www.wxapp-union.com/portal.php?mod=view&aid=2679) 2017-07-11
+- [揭秘5个微信查询新体验](http://www.wxapp-union.com/portal.php?mod=view&aid=2677) 2017-07-11
+- [微信小程序开发问答《四十八》http请求的问题&textarea组件在fixed定位的模块中随页面](http://www.wxapp-union.com/portal.php?mod=view&aid=2676) 2017-07-11
+- [微信小程序分页加载](http://www.wxapp-union.com/portal.php?mod=view&aid=2675) 2017-07-11
+- [APP战略分析：做小程序，还是大入口？](http://www.wxapp-union.com/portal.php?mod=view&aid=2674) 2017-07-11
+- [微信小程序实例--搜索电影app](http://www.wxapp-union.com/portal.php?mod=view&aid=2678) 2017-07-11
+- [腾讯云&搭建微信小程序服务](http://www.wxapp-union.com/portal.php?mod=view&aid=2671) 2017-07-10
+- [javascript/微信小程序中将String进行Base64编码并UTF-8格式输出](http://www.wxapp-union.com/portal.php?mod=view&aid=2670) 2017-07-10
+- [微信小程序菜单实现](http://www.wxapp-union.com/portal.php?mod=view&aid=2669) 2017-07-10
+- [微信小程序登录流程图](http://www.wxapp-union.com/portal.php?mod=view&aid=2673) 2017-07-10
+- [微信小程序开发--富文本插件wxParse的使用](http://www.wxapp-union.com/portal.php?mod=view&aid=2672) 2017-07-10
+- [微信小程序加密数据解密算法Go版](http://www.wxapp-union.com/portal.php?mod=view&aid=2668) 2017-07-08
+- [微信小程序开发之formId使用（模板消息）、跨页面获取数据示例 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2667) 2017-07-08
+- [章鱼小程序项目开发总结](http://www.wxapp-union.com/portal.php?mod=view&aid=2666) 2017-07-08
+- [小程序版本的 Auto Draw](http://www.wxapp-union.com/portal.php?mod=view&aid=2665) 2017-07-08
+- [java微信小程序参数二维码生成带背景图加字体(无限生成)](http://www.wxapp-union.com/portal.php?mod=view&aid=2664) 2017-07-08
+- [微信发布公众号数据助手小程序](http://www.wxapp-union.com/portal.php?mod=view&aid=2663) 2017-07-08
+- [微信小程序 Node.js (基础十一) 全局对象 & (基础十二) GET/POST请求 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2660) 2017-07-07
+- [微信小程序 Node.js (基础九) 函数 & (基础十) 路由](http://www.wxapp-union.com/portal.php?mod=view&aid=2659) 2017-07-07
+- [微信最神秘功能“小程序搜索”解密：马云也怕？](http://www.wxapp-union.com/portal.php?mod=view&aid=2658) 2017-07-07
+- [公众平台新增小程序运维中心等功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2657) 2017-07-07
+- [商家想用微信小程序杀出营销困局，这些功能你了解了么？精华收藏 ... ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2662) 2017-07-07
+- [Bmob基本REST API的python封装](http://www.wxapp-union.com/portal.php?mod=view&aid=2661) 2017-07-07
+- [极乐技术周报(第十六期)](http://www.wxapp-union.com/portal.php?mod=view&aid=2656) 2017-07-06
+- [微信小程序模板消息还能群发？无限制推送？](http://www.wxapp-union.com/portal.php?mod=view&aid=2651) 2017-07-06
+- [微信小程序 Node.js (基础七) Stream流 & (基础八) exports模块系统 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2654) 2017-07-06
+- [微信小程序 Node.js (基础六) Buffer(缓冲区)](http://www.wxapp-union.com/portal.php?mod=view&aid=2653) 2017-07-06
+- [【微信小程序】发送消息模板教程（后台以PHP示例）](http://www.wxapp-union.com/portal.php?mod=view&aid=2655) 2017-07-06
+- [微信即将内测商品搜索 流量大闸真的打开了](http://www.wxapp-union.com/portal.php?mod=view&aid=2652) 2017-07-06
+- [一个颇具创意的农业互联网+微信小程序：沁香农](http://www.wxapp-union.com/portal.php?mod=view&aid=2650) 2017-07-05
+- [微信小程序 Node.js (基础四) 事件循环& (基础五) EventEmitter](http://www.wxapp-union.com/portal.php?mod=view&aid=2648) 2017-07-05
+- [微信小程序--实现密码加密](http://www.wxapp-union.com/portal.php?mod=view&aid=2646) 2017-07-05
+- [让Wordpress成为你微信小程序的文章管理利器](http://www.wxapp-union.com/portal.php?mod=view&aid=2649) 2017-07-05
+- [微信小程序开发实践点滴——接入Bmob后端云及Bmob常用API的使用 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2645) 2017-07-05
+- [微信小程序获取当前所在城市](http://www.wxapp-union.com/portal.php?mod=view&aid=2647) 2017-07-05
+- [微信内测商品搜索功能，小程序版淘宝来了](http://www.wxapp-union.com/portal.php?mod=view&aid=2644) 2017-07-05
+- [微信小程序 Node.js (基础二) REPL 交互式解释器 & (基础三) 回调函数 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2643) 2017-07-04
+- [微信小程序 Node.js (基础一) NPM(包管理工具)](http://www.wxapp-union.com/portal.php?mod=view&aid=2642) 2017-07-04
+- [腾讯如何介入新零售？小程序打通最后一环](http://www.wxapp-union.com/portal.php?mod=view&aid=2641) 2017-07-04
+- [微信小程序压缩实践](http://www.wxapp-union.com/portal.php?mod=view&aid=2640) 2017-07-04
+- [微信小程序数据处理](http://www.wxapp-union.com/portal.php?mod=view&aid=2639) 2017-07-04
+- [基于Bmob在小程序端实现一键支付](http://www.wxapp-union.com/portal.php?mod=view&aid=2635) 2017-07-03
+- [黄秀杰---小程序对接WebSocket扫盲（PHP后端）](http://www.wxapp-union.com/portal.php?mod=view&aid=2634) 2017-07-03
+- [问答《四十七》小程序长按事件触发点击事件的BUG处理](http://www.wxapp-union.com/portal.php?mod=view&aid=2637) 2017-07-03
+- [通过api接口将json数据展现到小程序示例](http://www.wxapp-union.com/portal.php?mod=view&aid=2638) 2017-07-03
+- [微信小程序开发实践](http://www.wxapp-union.com/portal.php?mod=view&aid=2636) 2017-07-03
+- [钉钉Weex微应用与微信小程序对比表格](http://www.wxapp-union.com/portal.php?mod=view&aid=2633) 2017-07-01
+- [微信小程序点击控件修改样式](http://www.wxapp-union.com/portal.php?mod=view&aid=2632) 2017-07-01
+- [微信小程序 LeanCloud(二)命令行工具使用](http://www.wxapp-union.com/portal.php?mod=view&aid=2631) 2017-07-01
+- [微信小程序+WEB使用JS实现注册【60s】倒计时功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2630) 2017-07-01
+- [新鲜出炉！微信服饰行业指数](http://www.wxapp-union.com/portal.php?mod=view&aid=2628) 2017-06-30
+- [极乐技术周报(第十五期)](http://www.wxapp-union.com/portal.php?mod=view&aid=2627) 2017-06-30
+- [拨盘Demo大赛，1000元现金等你拿！](http://www.wxapp-union.com/portal.php?mod=view&aid=2626) 2017-06-30
+- [小程序组件实现](http://www.wxapp-union.com/portal.php?mod=view&aid=2621) 2017-06-30
+- [小程序SDK简介](http://www.wxapp-union.com/portal.php?mod=view&aid=2620) 2017-06-30
+- [一篇文章读懂微信和小程序的发展史](http://www.wxapp-union.com/portal.php?mod=view&aid=2619) 2017-06-30
+- [微信小程序：input输入框和form表单几种传值和取值方式 POST和GET请求方式的header区](http://www.wxapp-union.com/portal.php?mod=view&aid=2625) 2017-06-30
+- [打造微信小程序联网请求的轮播图](http://www.wxapp-union.com/portal.php?mod=view&aid=2624) 2017-06-30
+- [微信小程序 使用LeanCloud(一)前端使用](http://www.wxapp-union.com/portal.php?mod=view&aid=2623) 2017-06-30
+- [企业微信2.0：融合企业号能力，实现统一平台管理](http://www.wxapp-union.com/portal.php?mod=view&aid=2618) 2017-06-29
+- [小程序图片上传阿里OSS使用方法](http://www.wxapp-union.com/portal.php?mod=view&aid=2614) 2017-06-29
+- [微信小程序设置底部导航栏目方法](http://www.wxapp-union.com/portal.php?mod=view&aid=2613) 2017-06-29
+- [微信小程序wx.chooseImage和wx.previewImage的综合使用（图片上传可以限制个数） ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2612) 2017-06-29
+- [开发什么类型的小程序最容易成功？](http://www.wxapp-union.com/portal.php?mod=view&aid=2617) 2017-06-29
+- [小程序开发体验：3元实现小程序从0到上线](http://www.wxapp-union.com/portal.php?mod=view&aid=2616) 2017-06-29
+- [共享雨伞：高潮背后的“专利荒”](http://www.wxapp-union.com/portal.php?mod=view&aid=2615) 2017-06-29
+- [问答《四十六》数据渲染的问题+微信封装问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2611) 2017-06-28
+- [微信小程序之网络请求简单封装](http://www.wxapp-union.com/portal.php?mod=view&aid=2608) 2017-06-28
+- [从微信小程序看前端代码安全](http://www.wxapp-union.com/portal.php?mod=view&aid=2607) 2017-06-28
+- [用于微信小程序的socket库](http://www.wxapp-union.com/portal.php?mod=view&aid=2609) 2017-06-28
+- [对wepy 框架进行一系列的深入了解](http://www.wxapp-union.com/portal.php?mod=view&aid=2610) 2017-06-28
+- [搭建微信小程序服务 - 开发者实验室 - 腾讯云](http://www.wxapp-union.com/portal.php?mod=view&aid=2603) 2017-06-27
+- [微信小程序 蓝牙实现](http://www.wxapp-union.com/portal.php?mod=view&aid=2602) 2017-06-27
+- [微信小程序入门实例之记事本](http://www.wxapp-union.com/portal.php?mod=view&aid=2606) 2017-06-27
+- [微信小程序网络请求应用---发送参数返回服务器内容](http://www.wxapp-union.com/portal.php?mod=view&aid=2605) 2017-06-27
+- [微信小程序开发MAP（地图）](http://www.wxapp-union.com/portal.php?mod=view&aid=2604) 2017-06-27
+- [微信小程序调用【统一下单】、【支付】、【支付回调】api并处理请求 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2599) 2017-06-26
+- [“后微信时代”，不得不提的三大营销趋势！](http://www.wxapp-union.com/portal.php?mod=view&aid=2598) 2017-06-26
+- [小程序没有授权时的处理方法](http://www.wxapp-union.com/portal.php?mod=view&aid=2597) 2017-06-26
+- [微信小程序---美团顶部搜索框&菜单](http://www.wxapp-union.com/portal.php?mod=view&aid=2601) 2017-06-26
+- [微信小程序的页面跳转及前后页面传值](http://www.wxapp-union.com/portal.php?mod=view&aid=2600) 2017-06-26
+- [微信小程序后台解密用户数据](http://www.wxapp-union.com/portal.php?mod=view&aid=2595) 2017-06-24
+- [玩转小程序之模板消息](http://www.wxapp-union.com/portal.php?mod=view&aid=2594) 2017-06-24
+- [小程序上线搜索广告，它能为微信释放多少能量？](http://www.wxapp-union.com/portal.php?mod=view&aid=2593) 2017-06-24
+- [从小程序发布新功能，窥探其背后的野心](http://www.wxapp-union.com/portal.php?mod=view&aid=2592) 2017-06-24
+- [微信小程序实战篇-分类页面制作](http://www.wxapp-union.com/portal.php?mod=view&aid=2591) 2017-06-24
+- [微信小程序_登录获取unionid](http://www.wxapp-union.com/portal.php?mod=view&aid=2596) 2017-06-24
+- [开发者工具版本更新：0.18.182200（更新详情）](http://www.wxapp-union.com/portal.php?mod=view&aid=2590) 2017-06-23
+- [微信小程序开发教程—逻辑层js详解](http://www.wxapp-union.com/portal.php?mod=view&aid=2586) 2017-06-23
+- [PHP：微信小程序调用【统一下单】【微信支付】【支付回调】API；XML转Array，Array转X](http://www.wxapp-union.com/portal.php?mod=view&aid=2589) 2017-06-23
+- [微信小程序空白页重定向---二维码扫描第二次进入 不经过onLoad过程解析scene参数，跳 ](http://www.wxapp-union.com/portal.php?mod=view&aid=2588) 2017-06-23
+- [微信小程序开发体验](http://www.wxapp-union.com/portal.php?mod=view&aid=2587) 2017-06-23
+- [微信小程序组件之marquee](http://www.wxapp-union.com/portal.php?mod=view&aid=2585) 2017-06-23
+- [极乐技术周报(第十四期)](http://www.wxapp-union.com/portal.php?mod=view&aid=2583) 2017-06-22
+- [开发者工具版本更新：0.18.182100（更新详情）](http://www.wxapp-union.com/portal.php?mod=view&aid=2584) 2017-06-22
+- [黄秀杰--小程序实现选择图片九宫格带预览](http://www.wxapp-union.com/portal.php?mod=view&aid=2580) 2017-06-22
+- [黄秀杰--基于Bmob从零开始写一个博客小程序](http://www.wxapp-union.com/portal.php?mod=view&aid=2579) 2017-06-22
+- [新增小程序打开小程序的能力](http://www.wxapp-union.com/portal.php?mod=view&aid=2578) 2017-06-22
+- [微信小程序--检查接口状态、获取二维码](http://www.wxapp-union.com/portal.php?mod=view&aid=2582) 2017-06-22
+- [微信小程序第三方代开发](http://www.wxapp-union.com/portal.php?mod=view&aid=2581) 2017-06-22
+- [微信小程序云端增强 SDK](http://www.wxapp-union.com/portal.php?mod=view&aid=2577) 2017-06-21
+- [微信小程序开发教程--线程架构与开发步骤](http://www.wxapp-union.com/portal.php?mod=view&aid=2576) 2017-06-21
+- [微信小程序开发教程---创建第一个微信小程序](http://www.wxapp-union.com/portal.php?mod=view&aid=2575) 2017-06-21
+- [Linux 下开发微信小程序安装开发工具](http://www.wxapp-union.com/portal.php?mod=view&aid=2574) 2017-06-21
+- [从“匿名聊聊”窥测小程序命门，下一个爆款在哪里？](http://www.wxapp-union.com/portal.php?mod=view&aid=2573) 2017-06-21
+- [微信小程序：支付系列合集（开发指南+精品Demo）](http://www.wxapp-union.com/portal.php?mod=view&aid=2572) 2017-06-20
+- [微信小程序--图片宽100%显示不变形、页面FOR循环和嵌套循环](http://www.wxapp-union.com/portal.php?mod=view&aid=2569) 2017-06-20
+- [微信回应封杀山寨ofo小程序：个人注册 涉嫌违规提供社区服务 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2568) 2017-06-20
+- [微信小程序商品到详情（传参）](http://www.wxapp-union.com/portal.php?mod=view&aid=2570) 2017-06-20
+- [MI&Morketing6.19监测：京东618累计下单金额1199亿元；微信小程序出现广告功能 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2567) 2017-06-20
+- [微信小程序要这样去解读](http://www.wxapp-union.com/portal.php?mod=view&aid=2563) 2017-06-19
+- [微信小程序实现皮肤功能（夜间模式）](http://www.wxapp-union.com/portal.php?mod=view&aid=2562) 2017-06-19
+- [小程序搜索列表顶部出现广告，小程序再增加一个入口](http://www.wxapp-union.com/portal.php?mod=view&aid=2561) 2017-06-19
+- [微信支付遇到的坑](http://www.wxapp-union.com/portal.php?mod=view&aid=2565) 2017-06-19
+- [微信小程序的开发环境搭建（Windows版本）](http://www.wxapp-union.com/portal.php?mod=view&aid=2564) 2017-06-19
+- [微信小程序_将臃肿的单页js文件拆开](http://www.wxapp-union.com/portal.php?mod=view&aid=2559) 2017-06-18
+- [微信小程序实战篇-下拉刷新与加载更多](http://www.wxapp-union.com/portal.php?mod=view&aid=2557) 2017-06-18
+- [小程序与php 实现微信支付](http://www.wxapp-union.com/portal.php?mod=view&aid=2558) 2017-06-18
+- [问答《四十五》微信小程序菜单内容左右联动、通过代码触发form的reset…… ... ... ..](http://www.wxapp-union.com/portal.php?mod=view&aid=2560) 2017-06-18
+
+##7月12日更新小程序DEMO
+- [微信小程序Demo：LifeTime](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7591) 2017-07-12
+- [微信小程序demo：考学宝2.0](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7590) 2017-07-12
+- [微信小程序Demo：漂亮的地址选择器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7589) 2017-07-12
+- [极果微信小程序（商品试用、功能完善界面nice！）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7587) 2017-07-12
+- [微信小程序Demo：小程序教育类模板（课程预约）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7586) 2017-07-12
+- [微信小程序Demo：大米前端](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7583) 2017-07-12
+- [微信小程序Demo：悦读神器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7532) 2017-07-10
+- [微信小程序Demo：展会小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7531) 2017-07-10
+- [微信小程序Demo：青春521（基于LBS的动态分享小程序）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7530) 2017-07-10
+- [汇率兑换计算Demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7454) 2017-07-08
+- [微信小程序Demo：矿场运维小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7396) 2017-07-06
+- [微信小程序Demo：医疗微信小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7394) 2017-07-06
+- [微信小程序开发Demo：（开发中的后端能力，增删改、登录....](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7338) 2017-07-05
+- [微信小程序Demo：时间管理、日程安排小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7335) 2017-07-05
+- [微信小程序Demo：熊猫签证](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7333) 2017-07-05
+- [微信小程序Demo：心邮 （一款发布日志和心情的小程序）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7324) 2017-07-05
+- [微信小程序Demo：51报名管家](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7323) 2017-07-05
+- [电商商城小程序后台及小程序源码](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7214) 2017-07-02
+- [微信小程序Demo：计算器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7133) 2017-06-30
+- [微信小程序Demo：蒙台梭利幼教](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7130) 2017-06-30
+- [微信小程序Demo：一个时间管理的微信小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7127) 2017-06-30
+- [基于Bmob开发问答小程序Demo实录](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7125) 2017-06-30
+- [微信小程序Demo：Instagram 图片下载](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7122) 2017-06-30
+- [小程序-城市三级联动](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7119) 2017-06-30
+- [微信小程序Demo：小小梦工场（阅读+记事）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7074) 2017-06-29
+- [微信小程序Demo：卷皮商城小程序实践](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7070) 2017-06-29
+- [微信小程序Demo： showModal 自定义](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7069) 2017-06-29
+- [连接后台方面的疑问](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7043) 2017-06-28
+- [微信小程序Demo：查询类（炉石卡牌、主流快递）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7016) 2017-06-27
+- [微信小程序Demo：日程记录小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7014) 2017-06-27
+- [微信小程序Demo：课表选课小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7012) 2017-06-27
+- [微信小程序Demo：学习类小程序demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7010) 2017-06-27
+- [微信小程序Demo：学习类小程序demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7008) 2017-06-27
+- [微信小程序Demo：Jar小程序（github search， 自定义tag，dribbble...](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=7007) 2017-06-27
+- [微信小程序Demo：民情热线小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6971) 2017-06-26
+- [微信小程序Demo：基于Bmob开发问答小程序Demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6968) 2017-06-26
+- [小程序公司demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6748) 2017-06-24
+- [微信小程序Demo：班夫旅游小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6700) 2017-06-23
+- [微信小程序Demo：体质指数计算器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6699) 2017-06-23
+- [微信小程序Demo：兵马俑小程序（旅游景点类）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6647) 2017-06-21
+- [微信小程序Demo：喜乐茶铺（商城类小程序源码）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6645) 2017-06-21
+- [微信小程序Demo：TealMusic音乐播放器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6643) 2017-06-21
+- [微信小程序Demo：SIMUI-高颜值的小程序UI库](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6642) 2017-06-21
+- [微信小程序Demo：Hacker News（黑客新闻）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6641) 2017-06-21
+
+
+6月17日更新教程与资讯
+- [5款微信小程序开发工具使用报告](http://www.wxapp-union.com/portal.php?mod=view&aid=2550) 2017-06-16
+- [微信小程序--绘图canvas](http://www.wxapp-union.com/portal.php?mod=view&aid=2546) 2017-06-16
+- [微信小程序--如何实现动画效果](http://www.wxapp-union.com/portal.php?mod=view&aid=2545) 2017-06-16
+- [微信小程序---设计支付密码的输入框](http://www.wxapp-union.com/portal.php?mod=view&aid=2544) 2017-06-16
+- [微信小程序中如何使用wxParse解析html](http://www.wxapp-union.com/portal.php?mod=view&aid=2543) 2017-06-16
+- [小程序审核规则？模板消息会优化？我们整理了公开课的10个热门问题 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2549) 2017-06-16
+- [微信小程序JSON数据提取问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2548) 2017-06-16
+- [Sublime使用snippet实现快速输入代码块](http://www.wxapp-union.com/portal.php?mod=view&aid=2547) 2017-06-16
+- [玩转小程序支付之付款（统一下单）](http://www.wxapp-union.com/portal.php?mod=view&aid=2542) 2017-06-15
+- [小程序实战入门 - 手机归属地查询](http://www.wxapp-union.com/portal.php?mod=view&aid=2541) 2017-06-15
+- [微信小程序--动态添加分享数据、根据不同的id来进行设置和读取缓存 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2540) 2017-06-15
+- [『微信小程序和Android开发的对比』](http://www.wxapp-union.com/portal.php?mod=view&aid=2539) 2017-06-15
+- [微信小程序：canvas写字板效果](http://www.wxapp-union.com/portal.php?mod=view&aid=2538) 2017-06-15
+- [微信改造线下零售：小程序推“支付+会员”体系](http://www.wxapp-union.com/portal.php?mod=view&aid=2537) 2017-06-15
+- [微信小程序新增“星标”功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2536) 2017-06-14
+- [9张PPT带你看上午公开课小程序专场讲了什么](http://www.wxapp-union.com/portal.php?mod=view&aid=2535) 2017-06-14
+- [【微信小程序开发】来看看，那些年我们踩过的坑~](http://www.wxapp-union.com/portal.php?mod=view&aid=2534) 2017-06-14
+- [微信小程序 监听手势滑动切换页面](http://www.wxapp-union.com/portal.php?mod=view&aid=2533) 2017-06-14
+- [微信小程序+PHP：动态显示项目倒计时（格式：4天7小时58分钟39秒） ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2532) 2017-06-14
+- [微信小程序-隐藏和显示自定义的导航](http://www.wxapp-union.com/portal.php?mod=view&aid=2531) 2017-06-14
+- [微信小程序实现移动端滑动分页效果（ajax）](http://www.wxapp-union.com/portal.php?mod=view&aid=2530) 2017-06-14
+- [用 FOGG 模型回答：用户凭啥要用小程序？](http://www.wxapp-union.com/portal.php?mod=view&aid=2529) 2017-06-14
+- [微信小程序--实现多个按钮toggle功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2527) 2017-06-13
+- [深入分析：微信小程序与H5的区别](http://www.wxapp-union.com/portal.php?mod=view&aid=2528) 2017-06-13
+- [关于微信小程序，那些开发文档没有告诉你的！](http://www.wxapp-union.com/portal.php?mod=view&aid=2526) 2017-06-13
+- [微信小程序 ：小商户的大舞台！](http://www.wxapp-union.com/portal.php?mod=view&aid=2525) 2017-06-13
+- [微信小程序：商城系列专辑（开发指南+精品Demo）](http://www.wxapp-union.com/portal.php?mod=view&aid=2524) 2017-06-12
+- [通过微信小程序“运维密码”实现SSH双因子认证](http://www.wxapp-union.com/portal.php?mod=view&aid=2523) 2017-06-12
+- [小程序，带来了什么？](http://www.wxapp-union.com/portal.php?mod=view&aid=2522) 2017-06-12
+- [微信小程序缓存--根据不同的id来进行设置和读取缓存](http://www.wxapp-union.com/portal.php?mod=view&aid=2521) 2017-06-12
+- [微信小程序调用PHP后台接口，解析纯html文本](http://www.wxapp-union.com/portal.php?mod=view&aid=2520) 2017-06-12
+- [微信小程序能成为风口吗？可能就差一把钥匙了](http://www.wxapp-union.com/portal.php?mod=view&aid=2518) 2017-06-12
+- [如何写一个微信小程序组件](http://www.wxapp-union.com/portal.php?mod=view&aid=2517) 2017-06-12
+- [小程序支付详解+源码(客户端+服务端)](http://www.wxapp-union.com/portal.php?mod=view&aid=2516) 2017-06-11
+- [微信辟谣小程序上线，今日头条+新浪微博抱头痛哭](http://www.wxapp-union.com/portal.php?mod=view&aid=2514) 2017-06-10
+- [基于angular实现模拟微信小程序swiper组件](http://www.wxapp-union.com/portal.php?mod=view&aid=2513) 2017-06-10
+- [微信开发之获取用户详细列表](http://www.wxapp-union.com/portal.php?mod=view&aid=2512) 2017-06-10
+- [微信小程序例子——手机振动功能动态设置页面标题控制导航条加载动画 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2511) 2017-06-10
+- [微信开发之上传素材](http://www.wxapp-union.com/portal.php?mod=view&aid=2510) 2017-06-10
+- [如何阅读一份代码？](http://www.wxapp-union.com/portal.php?mod=view&aid=2509) 2017-06-10
+- [微信小程序的wxml文件和wxss文件在webstrom的支持](http://www.wxapp-union.com/portal.php?mod=view&aid=2515) 2017-06-10
+- [微信小程序--选择酒店入住离店时间的控件](http://www.wxapp-union.com/portal.php?mod=view&aid=2508) 2017-06-09
+- [微信小程序 es6-promise.js封装请求，处理异步进程](http://www.wxapp-union.com/portal.php?mod=view&aid=2507) 2017-06-09
+- [微信小程序--自定义Toast、延时执行](http://www.wxapp-union.com/portal.php?mod=view&aid=2505) 2017-06-09
+- [微信小程序例子——添加手机联系人、调节手机屏幕亮度](http://www.wxapp-union.com/portal.php?mod=view&aid=2504) 2017-06-09
+- [微信小程序图表插件（wx-charts）:饼图、线图、柱状图、区域图 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2503) 2017-06-09
+- [微信小程序电商常用倒计时](http://www.wxapp-union.com/portal.php?mod=view&aid=2506) 2017-06-09
+- [如何在小程序上接入微信支付？](http://www.wxapp-union.com/portal.php?mod=view&aid=2502) 2017-06-09
+- [今日小程序推荐：简历快手](http://www.wxapp-union.com/portal.php?mod=view&aid=2501) 2017-06-08
+- [微信小程序灵动电商：使用css控制文本只显示2行防止溢出](http://www.wxapp-union.com/portal.php?mod=view&aid=2500) 2017-06-08
+- [微信小程序多张图片上传功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2493) 2017-06-08
+- [微信小程序长按事件触发点击事件的BUG处理](http://www.wxapp-union.com/portal.php?mod=view&aid=2491) 2017-06-08
+- [WeChat 文章列表页面（二）](http://www.wxapp-union.com/portal.php?mod=view&aid=2490) 2017-06-08
+- [WeChat 文章列表页面（一）](http://www.wxapp-union.com/portal.php?mod=view&aid=2489) 2017-06-08
+- [问答《四十四》如何监听某几个数据都为true的时候执行某个函数 ... ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2492) 2017-06-08
+- [微信小程序位置API](http://www.wxapp-union.com/portal.php?mod=view&aid=2488) 2017-06-07
+- [微信小程序--数据缓存API整理](http://www.wxapp-union.com/portal.php?mod=view&aid=2487) 2017-06-07
+- [【小白专用】微信小程序支付，微信支付](http://www.wxapp-union.com/portal.php?mod=view&aid=2480) 2017-06-07
+- [微信小程序开发 --定制字体图标](http://www.wxapp-union.com/portal.php?mod=view&aid=2479) 2017-06-07
+- [微信小程序定位--获取经纬度城市街道等位置信息](http://www.wxapp-union.com/portal.php?mod=view&aid=2486) 2017-06-07
+- [微信小程序开发--SSL证书及HTTPS服务器](http://www.wxapp-union.com/portal.php?mod=view&aid=2485) 2017-06-07
+- [微信重磅 | 公众号支持插入链接](http://www.wxapp-union.com/portal.php?mod=view&aid=2482) 2017-06-07
+- [微信小程序：小技巧系列合辑No.1](http://www.wxapp-union.com/portal.php?mod=view&aid=2478) 2017-06-06
+- [微信小程序开发：http请求的session管理](http://www.wxapp-union.com/portal.php?mod=view&aid=2477) 2017-06-06
+- [微信小程序开发之小程序组件label标签解读以及分析实例](http://www.wxapp-union.com/portal.php?mod=view&aid=2473) 2017-06-06
+- [史上最全的微信小程序开发解决方案](http://www.wxapp-union.com/portal.php?mod=view&aid=2472) 2017-06-06
+- [苹果禁止热更新及微信的小程序](http://www.wxapp-union.com/portal.php?mod=view&aid=2470) 2017-06-06
+- [微信小程序：背景图不显示、下拉没有触发onPullDownRefresh](http://www.wxapp-union.com/portal.php?mod=view&aid=2476) 2017-06-06
+- [微信小程序数据分析平台阿拉丁获1000万天使轮融资](http://www.wxapp-union.com/portal.php?mod=view&aid=2471) 2017-06-06
+- [微信小程序调用后台接口+热点新闻滚动展示](http://www.wxapp-union.com/portal.php?mod=view&aid=2475) 2017-06-06
+- [小程序中利用Moment.js格式时间](http://www.wxapp-union.com/portal.php?mod=view&aid=2469) 2017-06-06
+- [小程序开发 - 小明带你找厕所 V2.0](http://www.wxapp-union.com/portal.php?mod=view&aid=2474) 2017-06-06
+- [「干货」如何做好微信小程序数据分析](http://www.wxapp-union.com/portal.php?mod=view&aid=2468) 2017-06-05
+- [微信小程序周报（第一期）](http://www.wxapp-union.com/portal.php?mod=view&aid=2467) 2017-06-05
+- [今日小程序推荐：自选股](http://www.wxapp-union.com/portal.php?mod=view&aid=2465) 2017-06-05
+- [如何利用微信搜一搜提升品牌曝光和流量](http://www.wxapp-union.com/portal.php?mod=view&aid=2464) 2017-06-05
+- [微信小程序Demo之贪食蛇](http://www.wxapp-union.com/portal.php?mod=view&aid=2460) 2017-06-05
+- [「干货」全面解读微信小程序注册提交规范](http://www.wxapp-union.com/portal.php?mod=view&aid=2458) 2017-06-05
+- [微信小程序：自行部署 Wafer 的一点心得](http://www.wxapp-union.com/portal.php?mod=view&aid=2457) 2017-06-05
+- [实战：“小打卡” 小程序从创意到上线完整开发过程解析](http://www.wxapp-union.com/portal.php?mod=view&aid=2456) 2017-06-05
+- [微信小程序访问webService（Java）](http://www.wxapp-union.com/portal.php?mod=view&aid=2455) 2017-06-05
+- [动手撸一个微信小程序学生课程表页面](http://www.wxapp-union.com/portal.php?mod=view&aid=2454) 2017-06-05
+- [小程序“微信电商”或奇袭阿里大本营？](http://www.wxapp-union.com/portal.php?mod=view&aid=2452) 2017-06-04
+- [Codeigniter中创建LeanCloud云函数实现微信支付](http://www.wxapp-union.com/portal.php?mod=view&aid=2451) 2017-06-04
+- [微信小程序从使用到分析快速解析](http://www.wxapp-union.com/portal.php?mod=view&aid=2450) 2017-06-04
+- [小程序地图map](http://www.wxapp-union.com/portal.php?mod=view&aid=2449) 2017-06-04
+- [微信小程序卡券开发(亲测)](http://www.wxapp-union.com/portal.php?mod=view&aid=2448) 2017-06-03
+- [小程序新增推广功能，支持自定义关键词](http://www.wxapp-union.com/portal.php?mod=view&aid=2441) 2017-06-03
+- [微信小程序获取系统时间、时间戳、时间时间戳加减](http://www.wxapp-union.com/portal.php?mod=view&aid=2446) 2017-06-03
+- [(开源)基于vue, react, node.js, go开发的微商城（含微信小程序）](http://www.wxapp-union.com/portal.php?mod=view&aid=2445) 2017-06-03
+- [小程序encryptedData](http://www.wxapp-union.com/portal.php?mod=view&aid=2444) 2017-06-03
+- [由小程序武装升级的微信电商，或将奇袭阿里](http://www.wxapp-union.com/portal.php?mod=view&aid=2443) 2017-06-03
+- [小程序设计原理：异常可控，有路可退](http://www.wxapp-union.com/portal.php?mod=view&aid=2447) 2017-06-03
+- [微信小程序开发(二)图片上传](http://www.wxapp-union.com/portal.php?mod=view&aid=2437) 2017-06-02
+- [微信小程序demo1计算器](http://www.wxapp-union.com/portal.php?mod=view&aid=2436) 2017-06-02
+- [小程序组件化框架 WePY 在性能调优上做出的探究](http://www.wxapp-union.com/portal.php?mod=view&aid=2435) 2017-06-02
+- [获取openId | 小程序](http://www.wxapp-union.com/portal.php?mod=view&aid=2434) 2017-06-02
+- [Laravel 5 微信小程序扩展](http://www.wxapp-union.com/portal.php?mod=view&aid=2440) 2017-06-02
+- [关于微信小程序拒绝授权后，重新授权并获取用户信息](http://www.wxapp-union.com/portal.php?mod=view&aid=2433) 2017-06-02
+- [微信小程序Redux绑定 – wechat-weapp-redux](http://www.wxapp-union.com/portal.php?mod=view&aid=2438) 2017-06-02
+- [微信小程序流量新入口来了！如何利用这项新能力？](http://www.wxapp-union.com/portal.php?mod=view&aid=2439) 2017-06-02
+- [小程序新功能发布](http://www.wxapp-union.com/portal.php?mod=view&aid=2430) 2017-06-01
+- [微信小程序上拉分页底部显示加载状态](http://www.wxapp-union.com/portal.php?mod=view&aid=2431) 2017-06-01
+- [微信小程序日历组件-calendar](http://www.wxapp-union.com/portal.php?mod=view&aid=2429) 2017-05-31
+- [【小程序】RSA签名](http://www.wxapp-union.com/portal.php?mod=view&aid=2428) 2017-05-31
+- [谁说的小程序已死？我怕是要啪啪打脸！](http://www.wxapp-union.com/portal.php?mod=view&aid=2424) 2017-05-31
+- [微信小程序性能优化——checkSession](http://www.wxapp-union.com/portal.php?mod=view&aid=2423) 2017-05-31
+- [微信小程序之 tabBar 不显示](http://www.wxapp-union.com/portal.php?mod=view&aid=2422) 2017-05-31
+- [微信小程序：计算经纬距离、wx.navigateTo中url无法跳转问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2421) 2017-05-31
+- [微信是如何识别小程序码的？](http://www.wxapp-union.com/portal.php?mod=view&aid=2420) 2017-05-31
+- [关于认知、小程序和人工智能的一些小思考](http://www.wxapp-union.com/portal.php?mod=view&aid=2427) 2017-05-30
+- [微信小程序实现简易留言板](http://www.wxapp-union.com/portal.php?mod=view&aid=2426) 2017-05-30
+- [微信小程序开发需要注意的30个坑](http://www.wxapp-union.com/portal.php?mod=view&aid=2425) 2017-05-30
+- [微信小程序搜索组件wxSearch](http://www.wxapp-union.com/portal.php?mod=view&aid=2412) 2017-05-29
+- [微信小程序开发的游戏《拼图游戏》](http://www.wxapp-union.com/portal.php?mod=view&aid=2419) 2017-05-29
+- [用「小程序」低成本获取大量用户的5种方法](http://www.wxapp-union.com/portal.php?mod=view&aid=2418) 2017-05-29
+- [武汉警方推出微信小程序服务大学生落户](http://www.wxapp-union.com/portal.php?mod=view&aid=2417) 2017-05-29
+- [微信小程序首张电子发票贵州首开，腾讯与多家贵州合作伙伴签约 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2416) 2017-05-29
+- [微信小程序赋能餐饮业，带来新机遇和新突破！](http://www.wxapp-union.com/portal.php?mod=view&aid=2415) 2017-05-29
+- [微信小程序网络请求封装](http://www.wxapp-union.com/portal.php?mod=view&aid=2414) 2017-05-29
+- [微信小程序上传一或多张图片](http://www.wxapp-union.com/portal.php?mod=view&aid=2413) 2017-05-29
+- [实战经验｜如何找到小程序的最佳切入点？](http://www.wxapp-union.com/portal.php?mod=view&aid=2411) 2017-05-29
+- [微信小程序：wx.navigateTo中url无法跳转问题（app.json中配置的tabBar与wx.navigateT](http://www.wxapp-union.com/portal.php?mod=view&aid=2410) 2017-05-28
+- [关于微信小程序的的总结](http://www.wxapp-union.com/portal.php?mod=view&aid=2409) 2017-05-28
+- [独立开发微信小程序——“桌游聚乐会”项目实践上线](http://www.wxapp-union.com/portal.php?mod=view&aid=2408) 2017-05-28
+- [Laravel5微信小程序登录获取用户信息扩展](http://www.wxapp-union.com/portal.php?mod=view&aid=2407) 2017-05-27
+- [微信小程序实现选择图片九宫格带预览](http://www.wxapp-union.com/portal.php?mod=view&aid=2404) 2017-05-27
+- [微信小程序地区选择器](http://www.wxapp-union.com/portal.php?mod=view&aid=2406) 2017-05-27
+- [小程序可以自定义数据啦~](http://www.wxapp-union.com/portal.php?mod=view&aid=2403) 2017-05-27
+- [微信小程序学习](http://www.wxapp-union.com/portal.php?mod=view&aid=2402) 2017-05-27
+- [微信小程序wx.previewImage预览图片](http://www.wxapp-union.com/portal.php?mod=view&aid=2401) 2017-05-27
+- [微信小程序之文件类API](http://www.wxapp-union.com/portal.php?mod=view&aid=2400) 2017-05-27
+- [开发者工具版本更新：0.17.172600（更新详情）](http://www.wxapp-union.com/portal.php?mod=view&aid=2405) 2017-05-27
+- [微信小程序新技能 Get！保存微信好友头像到手机通讯录！](http://www.wxapp-union.com/portal.php?mod=view&aid=2398) 2017-05-27
+- [小程序「Github开源社区」](http://www.wxapp-union.com/portal.php?mod=view&aid=2399) 2017-05-27
+- [跳坑《一百七十六》蓝牙API使用指南](http://www.wxapp-union.com/portal.php?mod=view&aid=2397) 2017-05-26
+- [小咖秀lite与极乐小程序商店首度合作！唯一有二维码哦~](http://www.wxapp-union.com/portal.php?mod=view&aid=2396) 2017-05-26
+- [微信小程序---提交表单后清空输入框](http://www.wxapp-union.com/portal.php?mod=view&aid=2395) 2017-05-26
+- [关于微信小程序遇到的wx.request({})问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2390) 2017-05-26
+- [微信小程序之音乐控制播放（audio的API）](http://www.wxapp-union.com/portal.php?mod=view&aid=2394) 2017-05-26
+- [微信小程序 template添加绑定事件](http://www.wxapp-union.com/portal.php?mod=view&aid=2393) 2017-05-26
+- [小程序码设计篇](http://www.wxapp-union.com/portal.php?mod=view&aid=2389) 2017-05-26
+- [三个新的程序员技能成长应用：Growth 3.0 RN 版、小程序版以及新的技能树 phodal ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2386) 2017-05-26
+- [【微信小程序】一个相册小程序源码几乎包含了前后端所有基本知识 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2388) 2017-05-26
+- [小程序是鸡肋还是新的宇宙观？5小时1700万刷屏创始人给张小龙的6个建议… ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2392) 2017-05-26
+- [微信小程序 movable-view](http://www.wxapp-union.com/portal.php?mod=view&aid=2385) 2017-05-26
+- [微信小程序开发之navigator](http://www.wxapp-union.com/portal.php?mod=view&aid=2391) 2017-05-26
+- [微信小程序---商城模块](http://www.wxapp-union.com/portal.php?mod=view&aid=2384) 2017-05-25
+- [微信小程序：Reader&Movie](http://www.wxapp-union.com/portal.php?mod=view&aid=2383) 2017-05-25
+- [微信小程序新增8大功能，体验更牛了！](http://www.wxapp-union.com/portal.php?mod=view&aid=2381) 2017-05-25
+- [微信小程序-思维脑图](http://www.wxapp-union.com/portal.php?mod=view&aid=2382) 2017-05-25
+- [微信小程序版五洲到家实战](http://www.wxapp-union.com/portal.php?mod=view&aid=2380) 2017-05-25
+- [微信小程序wx.request组件的那些坑](http://www.wxapp-union.com/portal.php?mod=view&aid=2379) 2017-05-25
+- [微信小程序开发之不能使用eval函数的问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2378) 2017-05-25
+- [关于微信小程序登陆、支付的问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2377) 2017-05-25
+- [线下实体店为什么要开发微信小程序？](http://www.wxapp-union.com/portal.php?mod=view&aid=2376) 2017-05-25
+- [微信小程序之商品属性分类 —— 微信小程序实战商城系列（4） ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2375) 2017-05-25
+- [小程序实现经典的列表页](http://www.wxapp-union.com/portal.php?mod=view&aid=2373) 2017-05-25
+- [微信小程序之购物数量加减 —— 微信小程序实战商城系列（3） ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2374) 2017-05-25
+- [微信小程序demo：small app](http://www.wxapp-union.com/portal.php?mod=view&aid=2372) 2017-05-24
+- [微信小程序通用model](http://www.wxapp-union.com/portal.php?mod=view&aid=2371) 2017-05-24
+- [微信小程序问题解答系列二 | wx:for 循环中动态的设置变量、配置微信小程序服务器……](http://www.wxapp-union.com/portal.php?mod=view&aid=2368) 2017-05-24
+- [从匿名聊聊被封停，看微信小程序坚持的线下策略](http://www.wxapp-union.com/portal.php?mod=view&aid=2369) 2017-05-24
+- [微信小程序之仿淘宝分类入口 —— 微信小程序实战商城系列（2） ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2367) 2017-05-24
+- [微信小程序开发路上遇到的那些坑](http://www.wxapp-union.com/portal.php?mod=view&aid=2362) 2017-05-24
+- [微信小程序之侧栏分类 —— 微信小程序实战商城系列（1）](http://www.wxapp-union.com/portal.php?mod=view&aid=2365) 2017-05-24
+- [微信小程序控件 圆形图片](http://www.wxapp-union.com/portal.php?mod=view&aid=2364) 2017-05-24
+- [微信小程序—支付功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2370) 2017-05-24
+- [微信小程序中获知用户运行小程序的场景](http://www.wxapp-union.com/portal.php?mod=view&aid=2363) 2017-05-24
+- [微信小程序数据助手怎么用](http://www.wxapp-union.com/portal.php?mod=view&aid=2360) 2017-05-24
+- [仿小程序数据助手数据页面之折线图](http://www.wxapp-union.com/portal.php?mod=view&aid=2361) 2017-05-24
+- [小程序之新手填坑](http://www.wxapp-union.com/portal.php?mod=view&aid=2359) 2017-05-23
+- [微信小程序新增拖动组件：movable-view](http://www.wxapp-union.com/portal.php?mod=view&aid=2354) 2017-05-23
+- [微信小程序如何再次获取用户授权](http://www.wxapp-union.com/portal.php?mod=view&aid=2352) 2017-05-23
+- [微信小程序侧边栏+语音记账本(主页面)](http://www.wxapp-union.com/portal.php?mod=view&aid=2358) 2017-05-23
+- [微信小程序swiper滑动页面实践-类似于安卓ViewPager](http://www.wxapp-union.com/portal.php?mod=view&aid=2353) 2017-05-23
+- [「微信小程序」低成本获取1000万用户的5种方法](http://www.wxapp-union.com/portal.php?mod=view&aid=2356) 2017-05-23
+- [微信小程序 开发列表](http://www.wxapp-union.com/portal.php?mod=view&aid=2351) 2017-05-23
+- [微信小程序之选项卡](http://www.wxapp-union.com/portal.php?mod=view&aid=2350) 2017-05-23
+- [WePY 1.5.5 发布，小程序组件化开发框架](http://www.wxapp-union.com/portal.php?mod=view&aid=2355) 2017-05-23
+- [微信小程序开发---跑步App+音乐播放器](http://www.wxapp-union.com/portal.php?mod=view&aid=2348) 2017-05-22
+- [微信版小明找厕所V2.0](http://www.wxapp-union.com/portal.php?mod=view&aid=2347) 2017-05-22
+- [微信小程序之购物车](http://www.wxapp-union.com/portal.php?mod=view&aid=2346) 2017-05-22
+- [微信小程序支付功能 C# .NET开发](http://www.wxapp-union.com/portal.php?mod=view&aid=2345) 2017-05-22
+- [微信小程序 仿美团分类菜单 swiper分类菜单](http://www.wxapp-union.com/portal.php?mod=view&aid=2344) 2017-05-22
+- [使用 wx-queue-request 控制 wx.request 请求数](http://www.wxapp-union.com/portal.php?mod=view&aid=2338) 2017-05-22
+- [微信小程序--辣椒忍者（点餐商城）](http://www.wxapp-union.com/portal.php?mod=view&aid=2343) 2017-05-22
+- [内容运营必须学会创建文章池！轻松涨粉，提高工作效率！](http://www.wxapp-union.com/portal.php?mod=view&aid=2342) 2017-05-22
+- [微信小程序 --- 图片自适应、本地图片的使用、redirect到tab的不刷新问题 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2337) 2017-05-22
+- [谈谈像素以及微信小程序的 rpx](http://www.wxapp-union.com/portal.php?mod=view&aid=2341) 2017-05-22
+- [微信小程序5月带给我们的惊喜](http://www.wxapp-union.com/portal.php?mod=view&aid=2340) 2017-05-22
+- [从微信更新大杂烩看小程序悖论](http://www.wxapp-union.com/portal.php?mod=view&aid=2339) 2017-05-22
+- [终章 给ofo撸一个微信小程序之钱包与充值](http://www.wxapp-union.com/portal.php?mod=view&aid=2336) 2017-05-22
+- [开发者工具版本更新：0.17.171900（更新详情）](http://www.wxapp-union.com/portal.php?mod=view&aid=2349) 2017-05-20
+- [微信小程序-- 给ofo撸一个微信小程序之个人中心页](http://www.wxapp-union.com/portal.php?mod=view&aid=2332) 2017-05-20
+- [微信小程序 通过控制CSS实现view隐藏与显示](http://www.wxapp-union.com/portal.php?mod=view&aid=2333) 2017-05-20
+- [微信小程序从使用到分析快速解析](http://www.wxapp-union.com/portal.php?mod=view&aid=2331) 2017-05-20
+- [微信小程序--如何实现从redirect到tab不刷新](http://www.wxapp-union.com/portal.php?mod=view&aid=2335) 2017-05-20
+- [微信小程序 生命周期函数](http://www.wxapp-union.com/portal.php?mod=view&aid=2334) 2017-05-20
+- [转发小程序页面只需一步？小程序再开放新能力](http://www.wxapp-union.com/portal.php?mod=view&aid=2328) 2017-05-19
+- [今日推荐小程序：520表白神器-蜗牛传书](http://www.wxapp-union.com/portal.php?mod=view&aid=2324) 2017-05-19
+- [小程序授权拒绝后重新拉起授权窗口](http://www.wxapp-union.com/portal.php?mod=view&aid=2326) 2017-05-19
+- [爆款小程序被封杀的背后，以及给微信团队的几点建议](http://www.wxapp-union.com/portal.php?mod=view&aid=2327) 2017-05-19
+- [小程序简单封装http访问网络库](http://www.wxapp-union.com/portal.php?mod=view&aid=2325) 2017-05-19
+- [微信小程序 View：flex 布局](http://www.wxapp-union.com/portal.php?mod=view&aid=2319) 2017-05-19
+- [微信小程序 如何使用css实现一个简单的顶部对齐?](http://www.wxapp-union.com/portal.php?mod=view&aid=2318) 2017-05-19
+- [微信小程序仿阿姨帮](http://www.wxapp-union.com/portal.php?mod=view&aid=2323) 2017-05-19
+- [半天就能上手的小程序——选择器多级联动](http://www.wxapp-union.com/portal.php?mod=view&aid=2321) 2017-05-19
+- [微信小程序本地缓存数据增删改查](http://www.wxapp-union.com/portal.php?mod=view&aid=2320) 2017-05-19
+- [微信小程序表单验证错误提示](http://www.wxapp-union.com/portal.php?mod=view&aid=2316) 2017-05-19
+- [微信小程序表单验证错误提示](http://www.wxapp-union.com/portal.php?mod=view&aid=2317) 2017-05-19
+- [微信小程序--三重奏 给ofo共享单车撸一个小程序之单车报障页 ...](http://www.wxapp-union.com/portal.php?mod=view&aid=2313) 2017-05-19
+- [微信小程序--几个有趣的css3动画](http://www.wxapp-union.com/portal.php?mod=view&aid=2322) 2017-05-19
+- [微信小程序--猫眼电影高仿制造](http://www.wxapp-union.com/portal.php?mod=view&aid=2311) 2017-05-19
+- [微信新功能曝光 | 一夜秒变百度搜索+今日头条](http://www.wxapp-union.com/portal.php?mod=view&aid=2310) 2017-05-19
+- [微信小程序-消息提示框](http://www.wxapp-union.com/portal.php?mod=view&aid=2315) 2017-05-19
+- [微信小程序的视图容器-- scroll-view](http://www.wxapp-union.com/portal.php?mod=view&aid=2314) 2017-05-19
+
+
+6月17日更新DEMO
+- [微信小程序Demo：仿 Apple Music的音乐小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6436) 2017-06-16
+- [微信小程序Demo：十分钟玩转比特币](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6411) 2017-06-15
+- [微信小程序Demo：新闻爆料](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6410) 2017-06-15
+- [微信小程序Demo：记录宠物日常喂养的微信小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6409) 2017-06-15
+- [微信小程序Demo：医疗急救](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6369) 2017-06-14
+- [小程序后台](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6366) 2017-06-14
+- [微信小程序Demo：奥多停车小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6306) 2017-06-13
+- [微信小程序Demo：Github微信小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6304) 2017-06-13
+- [微信小程序Demo：投资禅堂 直播小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6303) 2017-06-13
+- [微信小程序Demo：；别踩白块小游戏](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6300) 2017-06-13
+- [微信小程序Demo：小熊の日记](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6298) 2017-06-13
+- [图片滑动放大效果](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6249) 2017-06-12
+- [小程序支付详解+源码(客户端+服务端)](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6194) 2017-06-11
+- [微信小程序Demo：小程序中的虚拟键盘，查询停车费](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6093) 2017-06-09
+- [微信小程序Demo：汇率计算器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6092) 2017-06-09
+- [微信小程序Demo：搞笑图片、动图、聊天机器人](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6090) 2017-06-09
+- [微信小程序Demo：上海实时公交、快递、天气查询](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6089) 2017-06-09
+- [微信小程序Demo：二维码生成与识别](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6088) 2017-06-09
+- [微信小程序Demo：手机号码归属地查询的小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6086) 2017-06-09
+- [微信小程序Demo：基于城市定位查看当地各型号油价的小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6085) 2017-06-09
+- [微信小程序Demo：保洁预约](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6084) 2017-06-09
+- [微信小程序Demo：人民好公仆（生活+便民+政务）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6052) 2017-06-08
+- [微信小程序Demo：密码本小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6049) 2017-06-08
+- [微信小程序Demo：企业招聘小程序Minihr](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6048) 2017-06-08
+- [微信小程序Dmeo：云车](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6046) 2017-06-08
+- [微信小程序Demo：天气预报](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=6045) 2017-06-08
+- [微信小程序Demo：小程序公司模板](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5918) 2017-06-06
+- [微信小程序Demo：小明带你找厕所](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5917) 2017-06-06
+- [微信小程序Demo：微店小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5916) 2017-06-06
+- [微信小程序Demo：分书(扫码借书小程序)](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5914) 2017-06-06
+- [微信小程序Demo：招商办公小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5913) 2017-06-06
+- [微信小程序Demo：程序员老黄历](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5814) 2017-06-05
+- [微信小程序Demo：带物小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5813) 2017-06-05
+- [微信小程序Demo：一款关于鸡尾酒的微信小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5812) 2017-06-05
+- [微信小程序Demo：贪食蛇](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5810) 2017-06-05
+- [微信小程序Demo：美容商城](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5808) 2017-06-05
+- [微信小程序Demo： one+知乎日报](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5469) 2017-06-02
+- [微信小程游戏Demo：谁是杀手](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5450) 2017-05-31
+- [微信小程序demo：日历组件](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5447) 2017-05-31
+- [微信小程序demo：足球，赛事分析](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5446) 2017-05-31
+- [小程序简易导航](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5423) 2017-05-30
+- [小程序demo：办公审批](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5414) 2017-05-29
+- [小程序Demo：电魔方](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5413) 2017-05-29
+- [小程序demo：借阅伴侣](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5412) 2017-05-29
+- [微信小程序demo：投票](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5411) 2017-05-29
+- [微信小程序demo：健康生活](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5406) 2017-05-29
+- [小程序demo：文章列表demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5405) 2017-05-29
+- [微商城（含微信小程序）完整源码+配置指南](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5400) 2017-05-29
+- [微信小程序Demo：一个简单的工作系统](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5370) 2017-05-26
+- [微信小程序Demo：用于聚会的小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5369) 2017-05-26
+- [微信小程序Demo：Growth 是一款专注于Web开发者成长的应用，...](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5368) 2017-05-26
+- [微信小程序Demo： Music-Player](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5367) 2017-05-26
+- [微信小程序Demo：团贷网（投资）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5366) 2017-05-26
+- [微信小程序Demo：驾考宝典](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5365) 2017-05-26
+- [微信小程序Demo：时间安排](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5363) 2017-05-26
+- [微信小程序Demo：天气预报查询](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5343) 2017-05-25
+- [微信小程序Demo：做菜类小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5342) 2017-05-25
+- [微信小程序Demo：应聘方页面、企业方页面](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5341) 2017-05-25
+- [微信小程序Demo：资讯+阅读+影视](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5339) 2017-05-25
+- [微信小程序Demo：实现文章阅读，电影查看（调用豆瓣api）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5337) 2017-05-25
+- [微信小程序Demo：五洲商城](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5334) 2017-05-25
+- [微信小程序Demo：small app](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5321) 2017-05-24
+- [微信小程序Demo：房产估值](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5320) 2017-05-24
+- [微信小程序Demo：小程序组件](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5317) 2017-05-24
+- [微信小程序Demo：简单的电影小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5316) 2017-05-24
+- [微信小程序Demo：简单的电影小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5315) 2017-05-24
+- [微信小程序Demo：活动行](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5314) 2017-05-24
+- [微信小程序Demo：HaloRadio （电台+外文音乐）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5309) 2017-05-23
+- [微信小程序Demo：5个板块，首页，视频，阅读，音乐...](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5301) 2017-05-23
+- [微信小程序Demo：豆瓣同城](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5300) 2017-05-23
+- [微信小程序Demo：五十音图](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5293) 2017-05-22
+- [微信小程序Demo：录音、群分享、loading样式、城市组件等](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5292) 2017-05-22
+- [维信小程序Demo：跑步App+音乐播放器](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5286) 2017-05-22
+- [微信小程序Demo：辣椒忍者（点餐商城）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5282) 2017-05-22
+- [微信小程序Demo：值乎（高仿知乎）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5226) 2017-05-19
+- [微信小程序Demo：cnode社区](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5225) 2017-05-19
+- [微信小程序Demo：一个可以检测脉搏的小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5222) 2017-05-19
+- [微信小程序Demo：图书馆](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5220) 2017-05-19
+- [微信小程序Demo：包括段子，图片，音频，视频，四个模块...](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5219) 2017-05-19
+- [微信小程序Demo：一个以聊天方式阅读小说的demo](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5215) 2017-05-19
+- [微信小程序Demo：模仿阿姨帮](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5214) 2017-05-19
+
+
+
+5月18日更新
+
+- [微信小程序实战教程：模仿—网易云音乐](http://www.wxapp-union.com/portal.php?mod=view&aid=2270)
+- [微信小程序新手入门之必胜客篇](http://www.wxapp-union.com/portal.php?mod=view&aid=2285)
+- [微信小程序开发手记《八》：上线后的总结（](http://www.wxapp-union.com/portal.php?mod=view&aid=2262)
+- [微信小程序传值以及获取值方法](http://www.wxapp-union.com/portal.php?mod=view&aid=2268)
+- [微信最新功能「附近的小程序」，这对共享经](http://www.wxapp-union.com/portal.php?mod=view&aid=2269)
+- [小程序端JS加密，传输PHP端解密](http://www.wxapp-union.com/portal.php?mod=view&aid=2279)
+- [微信小程序中存在的一些坑](http://www.wxapp-union.com/portal.php?mod=view&aid=2287)
+- [“怀胎九月”，处女座小程序“临盆”在即](http://www.wxapp-union.com/portal.php?mod=view&aid=2263)
+- [小程序绑定已有商户号开通微信支付](http://www.wxapp-union.com/portal.php?mod=view&aid=2257)
+- [微信小程序 swiper scroll-view height设置](http://www.wxapp-union.com/portal.php?mod=view&aid=2249)
+- [有了公众号为啥还要小程序？这家餐厅告诉你](http://www.wxapp-union.com/portal.php?mod=view&aid=2253)
+- [微信小程序重新调起授权用户信息，扫码进入](http://www.wxapp-union.com/portal.php?mod=view&aid=2256)
+- [小程序开发干货技巧：如何为你的微信小程序](http://www.wxapp-union.com/portal.php?mod=view&aid=2275)
+- [微信小程序复杂数据结构模版渲染](http://www.wxapp-union.com/portal.php?mod=view&aid=2261)
+- [微信小程序之购物车功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2259)
+- [github精选：微信小程序起手式DEMO仿肯德基](http://www.wxapp-union.com/portal.php?mod=view&aid=2252)
+- [微信小程序设置http请求的步骤详解----结合](http://www.wxapp-union.com/portal.php?mod=view&aid=2250)
+- [微信小程序---数据传递](http://www.wxapp-union.com/portal.php?mod=view&aid=2282)
+- [微信小程序用户名、密码页面设计](http://www.wxapp-union.com/portal.php?mod=view&aid=2251)
+- [使用ws打造一个简单的小程序websocket后端](http://www.wxapp-union.com/portal.php?mod=view&aid=2265)
+- [微信小程序点击添加移除class](http://www.wxapp-union.com/portal.php?mod=view&aid=2276)
+- [微信小程序--购物车功能](http://www.wxapp-union.com/portal.php?mod=view&aid=2281)
+- [微信小程序的视图容器—swiper](http://www.wxapp-union.com/portal.php?mod=view&aid=2284)
+- [微信小程序，新添加的元素保持再底部](http://www.wxapp-union.com/portal.php?mod=view&aid=2277)
+- [小程序网络请求wx.request](http://www.wxapp-union.com/portal.php?mod=view&aid=2291)
+- [微信小程序：ofo共享单车之地图组件](http://www.wxapp-union.com/portal.php?mod=view&aid=2274)
+- [微信小程序问题解答|官方文档请求接口调用](http://www.wxapp-union.com/portal.php?mod=view&aid=2278)
+- [PHP作为后端对接微信小程序微信登录](http://www.wxapp-union.com/portal.php?mod=view&aid=2288)
+- [小程序自带缓存数据库使用](http://www.wxapp-union.com/portal.php?mod=view&aid=2271)
+- [“附近的小程序”之后，如何看待小程序？](http://www.wxapp-union.com/portal.php?mod=view&aid=2266)
+- [微信小程序息屏、返回、还是Home键操作，引](http://www.wxapp-union.com/portal.php?mod=view&aid=2264)
+- [微信小程序的视图容器-view](http://www.wxapp-union.com/portal.php?mod=view&aid=2283)
+- [关于开发微信小程序后端linux使用xampp配置](http://www.wxapp-union.com/portal.php?mod=view&aid=2267)
+- [小程序微信登陆获取openid和unionid](http://www.wxapp-union.com/portal.php?mod=view&aid=2273)
+- [微信小程序tabBar底部导航不显示问题解析](http://www.wxapp-union.com/portal.php?mod=view&aid=2286)
+- [微信加密数据解密报错-41003](http://www.wxapp-union.com/portal.php?mod=view&aid=2260)
+- [微信小程序--二次封装的缓存框架 wCache（](http://www.wxapp-union.com/portal.php?mod=view&aid=2280)
+- [【讨论】微信小程序到底适合做什么不适合做](http://www.wxapp-union.com/portal.php?mod=view&aid=2258)
+- [微信小程序--猫眼电影高仿制造](http://www.wxapp-union.com/portal.php?mod=view&aid=2311)
+- [微信小程序使用第三方库报错的问题](http://www.wxapp-union.com/portal.php?mod=view&aid=2272)
+- [微信小程序: WebSocket应用](http://www.wxapp-union.com/portal.php?mod=view&aid=2296)
+- [小程序页面开发注意事项](http://www.wxapp-union.com/portal.php?mod=view&aid=2292)
+- [微信小程序锚点定位楼层跳跃](http://www.wxapp-union.com/portal.php?mod=view&aid=2298)
+- [二重奏 给ofo撸一个微信小程序之扫码](http://www.wxapp-union.com/portal.php?mod=view&aid=2295)
+- [提升微信小程序开发效率的步骤详解，基于 R](http://www.wxapp-union.com/portal.php?mod=view&aid=2254)
+- [微信小程序开发工具---常用快捷键](http://www.wxapp-union.com/portal.php?mod=view&aid=2290)
+- [微信新功能曝光 | 一夜秒变百度搜索+今日头](http://www.wxapp-union.com/portal.php?mod=view&aid=2310)
+- [微信小程序给奢侈品营销的新机会](http://www.wxapp-union.com/portal.php?mod=view&aid=2255)
+- [微信小程序，向用户需求看齐才能挽回颓势](http://www.wxapp-union.com/portal.php?mod=view&aid=2294)
+- [微信小程序 wx.request 方法的异步封装。](http://www.wxapp-union.com/portal.php?mod=view&aid=2301)
+
+5月18日更新demo
+- [微信小程序完整商城类demo：灵动云商（含PH](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4718)
+- [微信小程序完整demo：搭伴拼团（PHP）：微](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4913)
+- [微信小程序精品demo：餐饮小程序（只做了前](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4564)
+- [微信小程序demo：ofo共享单车，使用模拟数](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4961)
+- [微信小程序完整demo：实时校园巴士（含PHP](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4958)
+- [微信小程序demo：拼车小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4849)
+- [微信小程序demo：济颐馆：营养品类商城](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4761)
+- [微信小程序商城demo：零食商贩：界面设计](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5042)
+- [用CSS3实现动画效果](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4628)
+- [微信小程序精品demo：加速度手机维修：三级](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4583)
+- [微信小程序完整demo：喵喵看书：ASP.NET后](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4663)
+- [微信小程序demo：宝宝喂奶，信息记录及生成](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4507)
+- [小程序完整demo：托福资料（springmvc+myba](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4911)
+- [微信小程序Demo：模仿—网易云音乐](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5141)
+- [【借鉴倒班日历】日历小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4684)
+- [微信小程序demo：仁怀酱酒宝：酒类商城模板](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4733)
+- [小程序学习用demo：年终计划：剩余天数，秒](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4871)
+- [微信小程序学习用完整demo：canvas涂鸦（含](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4712)
+- [微信小程序demo：重庆求职防坑手册：点赞，](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4885)
+- [微信小程序预约类demo：Pnpack代泊车：](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4831)
+- [微信小程序精品demo：经销商/供应商/加工厂](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5105)
+- [微信小程序Demo：酒商小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5174)
+- [微信小程序之自动登陆PHP源码](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4935)
+- [微信小程序学习用demo：BOSS直聘](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5104)
+- [微信小程序Demo：零食商城](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5201)
+- [微信小程序demo: 内涵段子小程序](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5080)
+- [微信小程序完整demo：哮喘数据库（含node后](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4953)
+- [微信小程序优质demo：U智；线下小程序典范](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4543)
+- [官方开发者工具使用教程（附最新demo列表）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4582)
+- [微信小程序canvasdemo：黑客帝国metrix效果](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4670)
+- [美团滚动点击导航，左右对应](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4978)
+- [微信小程序demo：六边形进度条效果（更新2.](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5037)
+- [微信小程序swipetab：基于swiper, scroll和](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4542)
+- [微信小程序完整demo：爱靓女（PHP后端）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4591)
+- [微信小程序demo：WE华软](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4509)
+- [微信小程序社区（论坛）全栈解决方案](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4527)
+- [微信小程序demo：一般公差：点击展开与隐藏](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4559)
+- [小程序后台（PHP）](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4846)
+- [微信小程序完整demo：企业版商城（含php后](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=5069)
+- [小程序实用demo：生成二维码 扫描二维码（](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4539)
+- [微信小程序demo：网络请求封装;GET/POST/上](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4584)
+- [小程序实现单页应用之残疾版](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4650)
+- [将分享卡片自动生成页面路径的的二维码的微](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4669)
+- [微信小程序demo：实时校吧，使用weui.wxss](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4691)
+- [微信小程序demo：我的名片](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4715)
+- [微信小程序demo：可贴快递：自动选择快递，](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4886)
+- [微信小程序demo：中欧商学院：自定义tabbar](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4899)
+- [微信小程序demo：天气预报](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4912)
+- [微信小程序demo：图灵聊天机器人](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4942)
+- [微信小程序练习demo：map地图：marker标记](http://www.wxapp-union.com/forum.php?mod=viewthread&tid=4992)
+
+ # 良心友情链接
+
+[腾讯QQ群快速检索](http://u.720life.cn/s/8cf73f7c)
+
+[软件免费开发论坛](http://u.720life.cn/s/bbb01dc0)
